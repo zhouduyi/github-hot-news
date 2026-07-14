@@ -1,6 +1,6 @@
 ﻿# GitHub Hot News
 
-Daily GitHub trending and hot repository collection.
+To collect github-hot-news: daily GitHub trending and hot repository reports.
 
 ## Structure
 
