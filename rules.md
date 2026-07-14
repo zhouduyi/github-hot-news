@@ -92,3 +92,37 @@ Recommended document structure:
 - 今日新增：
 - 热点原因：
 ```
+
+## 4. Arrange Materials By Time
+
+Collected materials must be arranged by time so that daily reports are easy to browse and compare.
+
+Default file layout:
+
+```text
+daily/YYYY-MM-DD.md
+```
+
+Default report timestamp:
+
+```markdown
+检索时间：YYYY-MM-DD 20:00 Asia/Shanghai
+```
+
+If multiple collections happen on the same day, use time sections inside the same daily report:
+
+```markdown
+## 20:00 收集
+```
+
+## 5. Daily Update Schedule
+
+Update the report every day at 20:00 Asia/Shanghai.
+
+The scheduled task should:
+
+- Confirm the current search time before collecting data.
+- Collect the daily GitHub Trending Top 10 repositories.
+- Generate or update `daily/YYYY-MM-DD.md`.
+- Commit the generated report.
+- Push changes to `git@github.com:zhouduyi/github-hot-news.git`.
