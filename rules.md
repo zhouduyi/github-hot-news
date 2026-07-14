@@ -50,3 +50,45 @@ Recommended report section:
 | 排名 | 项目 | 语言 | Star | 今日新增 | 简介 |
 | --- | --- | --- | ---: | ---: | --- |
 ```
+
+## 3. Generate And Store Daily Documents
+
+After collecting the daily GitHub hot projects, organize the information into a Markdown report and store it in the local repository.
+
+Required storage path:
+
+```text
+C:\Users\dalon\Desktop\Github热点收集\daily\YYYY-MM-DD.md
+```
+
+Example:
+
+```text
+C:\Users\dalon\Desktop\Github热点收集\daily\2026-07-14.md
+```
+
+Recommended document structure:
+
+```markdown
+# GitHub 热点资讯日报 - YYYY-MM-DD
+
+检索时间：YYYY-MM-DD HH:mm Asia/Shanghai
+数据范围：截至检索时间的 GitHub Trending Daily Top 10
+数据源：GitHub Trending
+
+## 今日 Top 10 项目
+
+| 排名 | 项目 | 语言 | Star | 今日新增 | 简介 |
+| --- | --- | --- | ---: | ---: | --- |
+
+## 项目详情
+
+### 1. owner/repo
+
+- 链接：
+- 简介：
+- 主要语言：
+- Star：
+- 今日新增：
+- 热点原因：
+```
